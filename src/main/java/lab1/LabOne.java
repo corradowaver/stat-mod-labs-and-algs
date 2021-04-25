@@ -9,7 +9,7 @@ import static java.util.stream.Collectors.toList;
 
 public class LabOne {
 
-  private static final int N = 100;
+  private static final int N = 1000;
 
   public static void main(String[] args) throws IOException {
     List<Double> pseudoRandomList = getPseudoRandomList(N);
@@ -76,5 +76,4 @@ public class LabOne {
         ).boxed()
         .collect(toList());
   }
-
 }
